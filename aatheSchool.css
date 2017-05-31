@@ -1,0 +1,261 @@
+body{
+    margin: auto;
+}
+.header{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    position: fixed;
+    border-bottom: 1px solid black;
+    width: 100%;
+    z-index: 100;
+
+}
+.header_logo{
+	height: 100px;
+}
+.header_nav{
+	 display: flex;
+     width: 25%;	
+     margin-left: 3%;
+     align-items: center;
+}
+.insid_nav_header{
+	width: 30%;
+}
+.container_all{
+    display: flex;
+    /* margin-top: 2%; */
+    background-color: #f7f7f7;
+    top: 100px;
+    position: relative;1
+}
+.div_contaner_list_students_courses{
+    display: flex;
+    width: 40%;
+    margin-left: 1%;
+}
+.div_contaner_list_courses{
+    width: 50%;
+    margin-left: 4%;
+    margin-top: 2%; 
+    overflow-y: auto;
+    position: relative;
+    max-height: 520px;
+}
+.div_contaner_list_students{
+    width: 50%;
+    margin-top: 2%;
+    overflow-y: auto;
+    position: relative;
+    max-height: 520px;
+}
+.title_list_student_and_courses{
+    width: 64%;
+    border-bottom-color: black;
+    border-bottom-style: inset;
+    margin-bottom: 5px;
+    background-color: rgba(86, 175, 217, 0.16);
+    font-family: arial;
+    font-weight: 900;
+    color: #495256;
+    margin-bottom: 6%;
+}
+.link_insert_new_student_and_courses{
+    margin-left: 47%;
+    font-weight: bolder;
+    border: 1px solid black;
+    background-color: rgba(15, 52, 117, 0.21)
+}
+.course_in_list{
+    border: 1px solid blue;
+    margin-right: 4.5%;
+}
+.header_right{
+    position: absolute;
+/*     border: 1px solid blue; */
+    right: 4%;
+    display: flex;
+    margin-top: 1.1%;
+    width: 12%;
+    /* margin: auto; */
+    justify-content: flex-end;
+}
+.logout{
+    position: absolute;
+    margin-right: 5%;
+    display: block;
+    margin-top: 22%;
+/*     border: 1px solid black; */
+}
+.name_user_header{
+    position: relative;
+    margin-right: 5%;
+    height: 2%;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    margin-top: 11%;
+    position: relative;
+    border: 2px solid #dfdfdf;
+    background-color: white;
+}
+.login_form input{
+    width: 25%;
+    margin-top: 0.5%;
+    border: 2px solid #000c58;
+    height: 24px;
+}
+.form_view_Details_student{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+}
+.button_edit_student{
+    width: 12%;
+    position: relative;
+    left: 85%;
+}
+.title_form{
+    border-bottom-color: black;
+    border-bottom-style: inset;
+    margin-bottom: 5px;
+}
+.container_student_in_list{
+    display: flex;
+}
+.student_in_list{
+    /* border: 1px solid blue; */
+    display: flex;
+    background-color: rgba(86, 175, 217, 0.16);
+        margin-top: 1%;
+}
+.image_student{
+    width: 50%;
+}
+.container_name_phone_student{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.form_view_Details_course{
+    margin-left: 9%;
+    border: 1px solid black;
+    width: 43%;
+    background-color: rgba(86, 175, 217, 0.16);
+    margin-top: 3%;
+    /* max-height: 500px; */
+}
+.details_student{
+    display: flex;
+    margin-left: 3%;
+}
+.view_details_student{
+    margin-top: 11%;
+}
+.view_details_student_image{
+/*     width: 31%; */
+}
+.view_details_student_course_image{
+    width: 12%;
+}
+.flex_rigth_image{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.rigth_image{
+    font-size: 1.5rem;
+}
+.linke_to_edit{
+    font-size: x-large;
+    position: absolute;
+    right: 46%;
+}
+.linke_to_delete{
+    font-size: x-large;
+    position: absolute;
+    right: 11%;   
+}
+.linke_to_edit:hover , .linke_to_delete:hover{
+    background-color: yellow;
+    font-size: xx-large;   
+}
+.view_details_student_in_courses{
+    margin-top: 6%;
+}
+.view_details_student_course_image{
+    display: inline-block;
+    margin: 10px;
+
+}
+.view_details_student_course_image + div, .view_details_student_course_image + input{
+    margin-top: -4%;
+    width: 70%;
+    font-size: 2rem;
+}
+.tiltle_list_courses_for_student{
+    margin-top: 5%;
+    border-bottom: 2px solid black;
+    width: 43%;
+}
+.description_in_Details_course{
+    font-size: 2rem;
+    word-wrap: break-word;
+}
+#description_in_edit_course{
+    font-size: 2rem;
+    word-wrap: break-word;
+    height: 30%;
+}
+.form_edit_Details_student{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9%;
+    border: 1px solid black;
+    max-height: 500px;
+    width: 43%;
+    background-color: rgba(86, 175, 217, 0.16);
+    margin-top: 3%;
+}
+.form_edit_Details_student input{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+}
+.checkbox_edit_student{
+        position: absolute;
+    top: 87%;
+    right: 1%;
+    /* width: 5%; */
+}
+.select_view_details_student_email{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+}
+.inside_form_to_edit_student{
+    margin-top: 4%;
+    height: 1.6rem;
+    font-size: 1rem;
+}
+.textarea_edite_course{
+    height: 10rem;
+    font-size: 2rem;
+}
+.title_count_student_in_course{
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+    height: 3rem;
+}
+.shure_to_delete{
+    margin: auto;
+    font-size: 2rem;
+}
